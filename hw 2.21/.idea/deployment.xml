@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="AFS" uploadOnCheckin="ae96ee97-c503-448d-8785-bfc37a9c9d5e">
+    <serverData>
+      <paths name="AFS">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/UPLOADS/hw 2.21" local="$PROJECT_DIR$" web="UPLOADS/hw 2.21" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="AFS" />
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
