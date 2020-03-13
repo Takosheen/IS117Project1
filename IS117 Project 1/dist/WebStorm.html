@@ -46,7 +46,33 @@
           <h1 class="reset_margin_padding">WebStorm and AFS</h1>
         </div>
         <div id="article_body">
+          <p>
+            Setting up WebStorm is very easy to do. Once you create an account, you need to access the terminal which is in the bottom right. There's a local terminal which is available to anyone.
+            To get the online terminal, go to tools then start SSH session, put in all the information required and you should be connected to the server and the terminal used for the server.
+            AFS is the server that is used to upload your project to a webpage with the login in that you provided to connected to the source wifi.
+          </p>
+          <p>
+            When creating files in WebStorm, you are creating the entire project you are working on, and is typically the item you create when you enter WebStorm for the first time.
+            A folder is created by right clicking on the file in the left tab, then selecting a file.
+            Files and folders should always start with a letter, and contain only letters, digits and underscores.
+          </p>
+          <p>
+            To create files and folders on AFS through the terminal, there are a few commands that are crucial to know.
+            mkdir is used to make a new directory allowed by the name you want the directory to be following.
+            To remove a directory, use the command rmdir followed by the name of the directory you wish to remove.
+            To change your directory, use the command cd followed by the directory you wish to work in.
+          </p>
+          <p>
+            Setting up WebStorm autosave is very simple once you know the process.
+            First, go to Tools, then deployment and configuration.
+            Click the plus in the upper left and select SFTP.
+            Choose the host you want, which is normally afsXX.njit.edu, followed by your username and password.
+            Press test connection to make sure you are connected to the internet.
+            Root path is allowed to auto connect.
+            In mappings, make sure to name both the deployment and web path to the name of the file you are working on.
+          </p>
           
+
         </div>
       </div>
       <div id="sidebar" class="float_left gr_width_small">
