@@ -1,0 +1,60 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 61px;
+
+}
+#wrapper {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  text-align: left;
+  float: bottom;
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 180%;
+}
+h3 {
+  font-size: 160%;
+}
+p1{
+  width: 62.078125%;
+  font-size: 180%;
+  float: left;
+  padding-right: 10px;
+}
+p2{
+  width: 37.921875%;
+  font-size: 160%%;
+  float: right;
+}
+p3{
+  font-size: 90%;
+  padding-right: 10px;
+}
+p4{
+  font-size: 160%;
+  padding-right: 10px;
+}
+p5{
+  font-size: 90%;
+  padding-right: 10px;
+}
+
+menu {
+  padding-right: 10px;
+  float: right;
+}
+body {
+  background-color: grey;
+}
+menu li {
+  display: inline;
+  float: right;
+  padding-right: 20px;
+}
