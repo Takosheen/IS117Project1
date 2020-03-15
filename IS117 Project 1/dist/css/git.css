@@ -1,0 +1,36 @@
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  line-height: 60px;
+
+}
+
+#wrapper {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  text-align: left;
+  float: bottom;
+}
+h1 {
+  font-size: 200%;
+}
+h2 {
+  font-size: 180%;
+}
+h3 {
+  font-size: 160%;
+}
+menu {
+  padding-right: 10px;
+  float: right;
+}
+body {
+  background-color: ghostwhite;
+}
+menu li {
+  display: inline;
+  padding-right: 20px;
+}
