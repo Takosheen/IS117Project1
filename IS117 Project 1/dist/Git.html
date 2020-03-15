@@ -14,7 +14,7 @@
 <![endif]-->
 
 <!-- Add your site or application content here -->
-  <div id="Bwrapper" >
+
     <div id="header">
     <body>
     <div id="wrapper">
@@ -25,20 +25,57 @@
       <header>
         <menu>
           <li><a href="#repo">Create a repository</a></li>
+          <li><a href="#commit">Commits :)</a></li>
+          <li><a href="#branch">Branches</a></li>
+          <li><a href="#master">Master Plan</a></li>
         </menu>
         <h1>Git like a Boss</h1>
       </header>
       <main>
-        <h2  name="repo"><br>Git Basics / Creating a Repository</h2>
+        <h2  id="repo"><br>Git Basics / Creating a Repository</h2>
         <p>
-          A repository is where your committed files will live and they can contain multiple <strong>branches</strong>
+          A repository is where your committed files will live; they can contain multiple "branches"
           based on your needs such as collaborating with others.</p>
 
         <p>To make your initial repository go to <a href="https://github.com/new">this link</a> or hit "new" on the top
             left of your github homepage</p>
 
-        <p> Navigate to your repsoitory on the left and copy the link from the "clone or download" drop down. Drop this
-          link under VCS>Git>Remotes
+        <p> Navigate to your repository on the web and copy the link from the "clone or download" drop down. Drop this
+          link under VCS>Git>Remotes.</p>
+
+        <h2 id="commit"><br>Making Your First Commit</h2>
+
+        <p> Assuming you want to upload your work to git; commit by using Ctrl+K or click "commit"
+        under the VCS menu. Before committing you'll be able to check your settings and even have some errors checked for you.
+        After making the commit you can "push" it  by using Ctrl+Shift+K or navigating to VSC>Git>Push on the webstorm
+          tool bar.</p>
+
+        <h2 id="branch"><br>Creating Branches / Intro to collaboration</h2>
+
+        <p>The easiest way to create a branch in git is to navigate to your repo on the web and hitting the grey "Branch"
+        dropdown and begin typing the name of you new branch, you can also do this through the Webstorm tool bar by navigating
+          to VCS>Git>Branches and clicking "+New Branch". Here is where you can also "checkout" other branches in your repo
+        and commit and push them to your hearts desire while not worrying about affecting other branches. However if you are
+        working with others it is nice to leave useful comments for you commits so they can know what's going on :) .</p>
+
+        <p>Just as important as making branches is knowing how to use them. In groups it's best to split up tasks so everyone's
+        code is organized and doesn't interfere with each other. In single user applications you could just make different branches for
+        anytime you would make a new file such as to not mess up your old one like maybe trying a new feature or having
+          it revised by someone else.</p>
+
+        <h2 id="master"><br>The Master Plan / Pull Requests :p</h2>
+        <p>When you're done making more branches than a tree it's time to polish up and chose what goes into your creme de
+        le creme, your <strong>master</strong> branch you should have a good idea of where to go with this if you've been keeping up
+        with your commits and pull requests adding things to the master as you go. Most of the time you'll receive pull requests
+        from your collaborators or you could do it yourself by using the new pull request drop down next to the branch drop down.
+          Either way when following through with the request git will let you know what has changed and in most cases will let you
+          know if you're about to break something. If all seems well you can proceed to merge your branches into your completed project
+        and succesfully collaborate while maintaining most of your sanity.</p>
+
+
+
+
+
 
 
       </main>

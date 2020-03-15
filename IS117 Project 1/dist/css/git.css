@@ -1,7 +1,7 @@
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  line-height: 60px;
+  font-size: 25px;
+  line-height: 42px;
 
 }
 
@@ -18,7 +18,7 @@ h1 {
   font-size: 200%;
 }
 h2 {
-  font-size: 180%;
+  font-size: 150%;
 }
 h3 {
   font-size: 160%;
