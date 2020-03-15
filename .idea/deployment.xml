@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="afs">
+  <component name="PublishConfigData" serverName="AFS">
     <serverData>
-      <paths name="afs">
+      <paths name="AFS">
         <serverdata>
           <mappings>
-            <mapping deploy="test5" local="$PROJECT_DIR$" web="/test5" />
+            <mapping deploy="Project" local="$PROJECT_DIR$" web="/Project1" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
-    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
